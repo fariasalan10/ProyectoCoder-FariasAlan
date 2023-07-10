@@ -1,0 +1,295 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    text-decoration: none;
+}
+
+/*HASTA AQUÍ CONFIGURACIÓN PRINCIPAL*/
+
+header{
+    background-color: #ffffff;
+}
+.logo{
+    display: inline;
+    width: 40px;
+    height: 45px;
+}
+.nombre-empresa{
+    display: inline-block;
+    align-items: center;
+    font-size: 23px;
+}
+
+/*HASTA AQUÍ ES EL HEADER SUPERIOR*/
+
+nav a{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+li{
+    display: inline-block;
+    position: relative;
+    width: 14.2862%;
+}
+ul {    
+    list-style:none;
+    font-size: 0;
+    padding: 0;
+}
+nav a:hover{
+    background-color: rgb(7, 3, 44);
+}
+nav ul ul { 
+    position: absolute;
+    display: none;
+    width: 100%;
+    z-index: 3;
+}
+ul ul li { 
+    width: 100%;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li:hover ul li:hover {
+    background-color: royalblue;
+}
+
+/*HASTA AQUÍ EL HEADER INFERIOR - NAV */
+
+body  {
+    background-color: black;
+}
+.frase{
+    padding-top: 100px;
+    z-index: 2;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 25%;
+}
+.subtitulo{
+    padding-top: 150px;
+    z-index: 2;
+    color: #e8e8e8a2;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 32%;
+}
+.imagen-principal{
+    height: 720px;
+    width: 1080;
+}
+.imagen-centrada{
+    text-align: center;
+}
+.frase-iStore{
+    color: #e8e8e8;
+    font-size: 40px;
+    padding-top: 700px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 40%;
+}
+.caract{
+    color: #e8e8e8a2;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 30%;
+    padding-top: 760px;
+}
+.frase-el-diseño{
+    color: #e8e8e8;
+    font-size: 47px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 400px;
+}
+.steve{
+    color: #e8e8e8a2;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+/*HASTA AQUÍ EL CUERPO DEL HOME*/
+
+footer{
+    background-color: #181313;
+}
+.footer-botones-centro{
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+}
+.whatsapp{
+    height: 45px;
+    width: 45px;
+    display: inline;
+    padding: 2px;
+}
+.instagram{
+    height: 40px;
+    width: 40px;
+    display: inline;
+    padding: 2px;
+}
+.youtube{
+    padding: 2px;
+    height: 35px;
+    width: 50px;
+    display: inline;
+}
+
+/*HASTA AQUÍ EL CUERPO DEL FOOTER*/
+
+.producto-titulo{
+    color: #e8e8e8;
+    text-align: center;
+    text-transform: uppercase;
+}
+.producto-precio{
+    color: #e8e8e8a2;
+    text-align: center;
+    font-size: 25px;
+}
+.producto-caract{
+    color: #e8e8e8a2;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 40px 10px 40px;
+}
+.tamaño-imagen{
+    width: 500px;
+    height: 500px;
+    padding: 40px 40px 0px 40px;
+    border-radius: 90px;
+}
+.boton{
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+/*HASTA AQUÍ PRODUCTOS*/
+
+.quienes-somos-principal{    
+    color: #e8e8e8;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 23%;
+    position: absolute;
+
+}
+.quienes-somos-subtitulo{
+    color: #e8e8e8a2;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 150px;
+    position: absolute;
+
+}
+.quienes-somos{
+    color: #e8e8e8a2;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 700px;
+}
+.titulo-quienes-somos{
+    color: #e8e8e8;
+    font-size: 40px;
+    margin-left: 38%;
+    margin-top: 600px;
+    position: absolute;
+}
+
+/*HASTA AQUÍ SOBRE NOSOTROS*/
+
+.formulario{
+    background-color: #e8e8e8a2;
+    width: 700px;
+    border-radius: 75px;
+    height: 350px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 50px 50px 50px;
+    margin-top: 100px;
+    margin-left: 370px;
+    margin-bottom: 100px;
+}
+.contenedor-formulario{
+    width: 500px;
+}
+.titulo-contenedor{
+    color: black;
+    font-size: 50px;
+    margin-left: 35%;
+    position: relative;
+}
+.titulo-nombre-formulario{
+    color: black;
+    font-size: 20px;
+    margin-left: 44%;
+    position: relative;
+}
+.nombre-formulario{
+    font-size: 20px;
+    margin-left: 44%;
+    position: relative;
+}
+.titulo-mail-formulario{
+    color: black;
+    font-size: 20px;
+    margin-left: 44%;
+    position: relative;
+}
+.mail-formulario{
+    font-size: 20px;
+    margin-left: 44%;
+    position: relative;
+}
+.titulo-mensaje-formulario{
+    color: black;
+    font-size: 20px;
+    margin-left: 44%;
+    position: relative;
+}
+.mensaje-formulario{
+    font-size: 20px;
+    width: 225px;
+    height: 120px;
+    margin-left: 44%;
+    position: relative;
+}
+.boton-contactanos{
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    margin-left: 59%;
+}
+
+/*HASTA AQUÍ CONTACTANOS*/
+
