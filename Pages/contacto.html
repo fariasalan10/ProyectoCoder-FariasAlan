@@ -7,80 +7,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iStore Córdoba - Home</title>
     <link rel="icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/732px-Apple_logo_black.svg.png"/>
-    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="https://kit.fontawesome.com/31f397c213.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Css/estilo.css">
 </head>
 
 <body>
 
-<header>
+<!-- NAVBAR -->
 
-    <section>
-        <section>
-            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/732px-Apple_logo_black.svg.png" alt="logo de la compañía">
-            <h2 class="nombre-empresa">iStore Córdoba</h2>
-        </section>
-     </section>    
+<section class="relative">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="../index.html">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/732px-Apple_logo_black.svg.png" alt="iStore Navbar" width="30" height="35">
+      </a>
+      <a class="navbar-brand" href="../index.html">iStore Córdoba</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li>
+            <a class="nav-link" href="./iphones.html">iPhones</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./macbooks.html">MacBooks</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Accesorios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./cargadores.html">Cargadores</a></li>
+              <li><a class="dropdown-item" href="./airpods.html">AirPods</a></li>
+              <li><a class="dropdown-item" href="./applewatch.html">Apple Watch</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="./fundasyprotectores.html">Fundas y Protectores</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./servicios.html">Servicios</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./sobrenosotros.html">Nosotros</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Estoy buscando..." aria-label="Estoy buscando...">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</section>
+
     
-
-     <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./iphones.html">iPhones</a></li>
-            <li><a href="./macbooks.html">MacBooks</a></li>
-            <li><a href="#">Accesorios</a>
-                <ul>
-                    <li><a href="./cargadores.html">Cargadores</a></li>
-                    <li><a href="./airpods.html">AirPods</a></li>
-                    <li><a href="./applewatch.html">Apple Watch</a></li>
-                    <li><a href="./fundasyprotectores.html">Fundas y Protectores</a></li>
-                </ul>
-            </li>    
-            <li><a href="./servicios.html">Servicios</a></li>
-            <li><a href="./sobrenosotros.html">Sobre Nosotros</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>    
-    </nav>
-
-</header>
-
 <form class="formulario">
 
-    <article class="contenedor-formulario">
-        
-        <h2 class="titulo-contenedor">CONTACTANOS</h2>  
-
-        <label for="Nombre" class="titulo-nombre-formulario">Nombre y Apellido</label>
-        <input type="text" class="nombre-formulario" id="Nombre" name="Nombre">
-
-        <label for="Mail" class="titulo-mail-formulario">Mail</label>
-        <input type="email" class="mail-formulario" id="Mail" name="Mail">
-        
-        <label for="Mensaje" class="titulo-mensaje-formulario">Dejanos tu mensaje</label>
-        <input type="text" class="mensaje-formulario" id="Mensaje" name="Mensaje">
-
-        <input type="submit" class="boton-contactanos">
-
-    </article>    
-</form>
-<footer>
+        <h2 class="titulo-contenedor">CONTACTO</h2>  
     
-    <section class="imagen-centrada">
-        <a href="https://web.whatsapp.com"><img class="whatsapp" src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-png-0.png" alt="Whatsapp"></a>
-        <a href="https://instagram.com"><img class="instagram" src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo.png" alt="Instagram"></a>
-        <a href="https://youtube.com"><img class="youtube" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="Youtube"></a>
+        <label for="Nombre" class="titulo-nombre-formulario">Nombre y Apellido</label>
+        <input type="text" class="nombre-formulario" id="Nombre" name="Nombre" placeholder="Ej: Leandro Paredes">
+    
+        <label for="Mail" class="titulo-mail-formulario">Mail</label>
+        <input type="email" class="mail-formulario" id="Mail" name="Mail" placeholder="Ej: tumail@tumail.com">
+    
+        <label for="Mensaje" class="titulo-mensaje-formulario">Dejanos tu mensaje</label>
+        <textarea class="mensaje-formulario" id="Mensaje" name="Mensaje" placeholder="Escribe aquí tu mensaje"></textarea>
+    
+        <input type="submit" class="boton-contactanos">
+  
+    </form>
+
+<!-- AQUI COMIENZA EL FOOTER DE LA PÁGINA -->
+
+<footer class="footer">
+    <section class="footer__group1">
+      <div class="caja">
+          <article class="article_caja">
+            <a href="../index.html">
+              <img class="imgfooter" src="https://img.icons8.com/?size=512&id=30659&format=png" alt="iStore Córdoba Icon">iStore Córdoba</a>
+        </article>
+      </div>
+      <div class="caja">
+        <h2>SOBRE NOSOTROS</h2>
+        <P>Somos el Apple Premium Reseller más reconocido de Córdoba.</P>
+        <p>
+          Nuestra tienda te brinda la oportunidad de conocer y probar cada uno de los innovadores productos Apple. <br></P>
+        </p>
+      </div>
+      <div class="caja">
+        <H2>¡SEGUINOS!</H2>
+        <DIV class="redes">
+          <a href="#" class="fa fa-facebook redesdec"></a>
+          <a href="#" class="fa fa-instagram redesdec"></a>
+          <a href="#" class="fa fa-twitter redesdec"></a>
+          <a href="#" class="fa fa-youtube redesdec"></a>
+        </DIV>
+      </div>
     </section>
-
-    <section >
-        <a>
-            <section class="imagen-centrada">
-                <a class="footer-botones-centro" href="">Terminos y Condiciones</a>
-                <a class="footer-botones-centro" href="">Política de Privacidad</a>
-            </section>
-        </a>
+  
+    <section class="footer__group2">
+        <p>&copy; 2023<b> iStore </b> - Todos los Derechos Reservados.</p>
     </section>
-
-</footer>
-
+    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>
