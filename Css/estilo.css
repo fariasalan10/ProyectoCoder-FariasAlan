@@ -79,7 +79,6 @@ body  {
 
 @media screen and (max-width: 426px){
     .contenedor3__parrafo{
-
         justify-content: center;
         margin: 35px 30px;
 }}
@@ -197,71 +196,14 @@ body  {
 
 /*HASTA AQUÍ EL CUERPO DEL FOOTER*/
 
-.producto-titulo{
-    color: #e8e8e8;
-    text-align: center;
-    text-transform: uppercase;
-}
-.producto-precio{
-    color: #e8e8e8a2;
-    text-align: center;
-    font-size: 25px;
-}
-.producto-caract{
-    color: #e8e8e8a2;
-    text-align: center;
-    font-size: 20px;
-    padding: 20px 40px 10px 40px;
-}
-.tamaño-imagen{
-    width: 500px;
-    height: 500px;
-    padding: 40px 40px 0px 40px;
-    border-radius: 90px;
-}
-.boton{
-    width: 80px;
-    height: 35px;
-    border-radius: 30px;
-    background-color: white;
-    color: black;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-}
-
-/*HASTA AQUÍ PRODUCTOS*/
-
-.quienes-somos-principal{    
-    color: #e8e8e8;
-    font-size: 40px;
-    margin-top: 100px;
-    margin-left: 23%;
-    position: absolute;
-
-}
-.quienes-somos-subtitulo{
-    color: #e8e8e8a2;
-    font-size: 20px;
-    margin-left: 30%;
-    margin-top: 150px;
-    position: absolute;
-
-}
-.quienes-somos{
-    color: #e8e8e8a2;
-    text-align: center;
-    font-size: 20px;
-    position: absolute;
-    margin-left: 19%;
-    margin-top: 700px;
-}
-.titulo-quienes-somos{
-    color: #e8e8e8;
-    font-size: 40px;
-    margin-left: 38%;
-    margin-top: 600px;
-    position: absolute;
+.degrade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(13, 13, 137), rgb(195, 36, 110));
+    border-radius: 15px;
+    width: 250px;
+    height: 80px;
 }
 
 /*HASTA AQUÍ SOBRE NOSOTROS*/
