@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-coder-fariasalan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fariasalan10/ProyectoCoder-FariasAlan.git"
+  },
+  "author": "Alan Farias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fariasalan10/ProyectoCoder-FariasAlan/issues"
+  },
+  "homepage": "https://github.com/fariasalan10/ProyectoCoder-FariasAlan#readme"
+}
