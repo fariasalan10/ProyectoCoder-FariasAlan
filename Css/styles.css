@@ -28,8 +28,25 @@ body {
 .container__frase--h1 {
   color: #e8e8e8;
   margin: 0%;
+  font-size: 40px;
+  animation-name: animacion1;
+  animation-iteration-count: initial;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-delay: 0s;
 }
 
+@keyframes animacion1 {
+  0% {
+    font-size: 10px;
+  }
+  50% {
+    font-size: 25px;
+  }
+  100% {
+    font-size: 40px;
+  }
+}
 .container__parraf {
   display: flex;
   justify-content: center;
@@ -41,6 +58,7 @@ body {
 .container__parraf--p {
   color: rgba(232, 232, 232, 0.6352941176);
   margin: 0%;
+  font-size: 20px;
 }
 
 .start {
@@ -175,6 +193,13 @@ body {
   border-radius: 15px;
   width: 250px;
   height: 80px;
+  transition: all 3s;
+}
+
+.degrade:hover {
+  width: 300px;
+  height: 100px;
+  background: linear-gradient(45deg, rgb(195, 36, 110), rgb(13, 13, 137));
 }
 
 .titulo-contenedor {
@@ -206,8 +231,11 @@ body {
   padding: 7px;
   font-size: 20px;
   border: none;
-  min-height: 200px;
-  max-height: 300px;
+  height: 200px;
+  transition: all 1s;
+}
+.formulario textarea:focus {
+  height: 300px;
 }
 
 .titulo-nombre-formulario, .titulo-mensaje-formulario, .titulo-mail-formulario {

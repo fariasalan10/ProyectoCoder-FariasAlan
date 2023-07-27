@@ -15,7 +15,19 @@
 .container__frase--h1{
     color: $secondary-color;
     margin: $porcentaje-0;
+    font-size: $size-frase;
+    animation-name: animacion1;
+    animation-iteration-count: initial;
+    animation-timing-function:linear;
+    animation-duration: 2s;
+    animation-delay: 0s; 
 }
+@keyframes animacion1 {
+    0% {font-size: ($size-frase)-30px};
+    50% {font-size: ($size-frase)-15px};
+    100% {font-size: $size-frase};
+}
+
 .container__parraf {
     @include flex-center-center;
     width: $ancho-total;
@@ -24,6 +36,7 @@
 .container__parraf--p{
     color:$terciary-color;
     margin: $porcentaje-0;
+    font-size: $size-parraf;
 }
 .start {
     justify-content: $comienzo-flex;

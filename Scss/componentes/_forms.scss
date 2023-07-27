@@ -30,8 +30,11 @@
         padding: $padding-form;
         font-size: $size-parraf;
         border: $no-decoration;
-        min-height: $altura-min;
-        max-height: $altura-max;
+        height: $altura-min;
+        transition: all 1s;
+    }
+    textarea:focus {
+        height: $altura-max;
     }
 }
 
