@@ -1,0 +1,30 @@
+.upper {
+    text-transform: $mayusc;
+}
+.container__frase {
+    display: $flex-box;
+    justify-content: $centrado;
+    align-items: $centrado;
+    width: $automatico;
+    margin-top: $margin-texto-principal;
+    text-align: $centrado;
+}
+.container__frase--h1{
+    color: $secondary-color;
+    margin: $porcentaje-0;
+}
+.container__parraf {
+    display: $flex-box;
+    justify-content: $centrado;
+    align-items: $centrado;
+    width: $ancho-total;
+    text-align: $centrado;
+}
+.container__parraf--p{
+    color:$terciary-color;
+    margin: $porcentaje-0;
+}
+.start {
+    justify-content: $comienzo-flex;
+    margin-left: $cards-margin;
+}

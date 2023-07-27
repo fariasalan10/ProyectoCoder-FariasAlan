@@ -1,0 +1,23 @@
+@media screen and (max-width: $media-tablet){
+    .contenedor3{
+    width: ($ancho-total)-10;
+    grid-template-columns: repeat(1, $fraccion);
+}}
+
+@media screen and (max-width: $media-tablet){
+    .contenedor3__parrafo{
+        justify-content: $centrado;
+        margin: ($margin-query)+5 $margin-query;
+}}
+
+@media screen and (max-width: $media-tablet){
+    .formulario{
+        width: $ancho-total;
+    } }
+
+@media screen and (max-width: $media-tablet){
+    .footer__group1{
+    width: ($ancho-total)-10;
+    grid-template-columns: repeat(1, $fraccion);
+    padding: ($padding-form)*5;
+}}

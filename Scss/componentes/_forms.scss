@@ -1,0 +1,52 @@
+.titulo-contenedor{
+    color: $primary-color;
+    text-align: $centrado;
+    margin: $no-pixels;
+    width: $automatico;
+    font-size: $size-frase;
+    margin-bottom: $cards-margin;
+}
+.formulario {
+    margin: $margin-texto-principal $automatico;
+    width: ($box-width)*2;
+    background-color: $secondary-color;
+    padding: calc($padding-footer/2) calc($padding-footer/2);
+    border-radius: $radius-border;
+    input {
+        width: $ancho-total;
+        padding: $padding-form;
+        margin-bottom: $cards-margin;
+        border: $no-decoration;
+        font-size: $size-parraf;
+    }
+    textarea {
+        width: $ancho-total;
+        margin-bottom: $cards-margin;
+        padding: $padding-form;
+        font-size: $size-parraf;
+        border: $no-decoration;
+        min-height: $altura-min;
+        max-height: $altura-max;
+    }
+}
+
+.titulo-nombre-formulario{
+    color: $primary-color;
+    font-size: $size-parraf;
+}
+.titulo-mail-formulario{
+    color: $primary-color;
+    font-size: $size-parraf;
+}
+.titulo-mensaje-formulario{
+    color: $primary-color;
+    font-size: $size-parraf;
+}
+.boton-contactanos{
+    width: $ancho-total;
+    height: $height-boton;
+    border-radius: $radius-border;
+    background-color: $background-color-form;
+    color: $secondary-color;
+    text-transform: $mayusc;
+}

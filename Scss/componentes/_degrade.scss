@@ -1,0 +1,9 @@
+.degrade{
+    display: $flex-box;
+    justify-content: $centrado;
+    align-items: $centrado;
+    background: linear-gradient($degrade-angle, $primary-degrade, $secondary-degrade);
+    border-radius: $radius-border;
+    width: $box-width;
+    height: $box-height;
+}
