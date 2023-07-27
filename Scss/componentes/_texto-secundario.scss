@@ -5,7 +5,6 @@
     column-gap: $espacio-col;
     margin: 5*($cards-margin) $no-pixels;
 }
-
 .contenedor3__frase{
     color: $secondary-color;
     font-size: $size-frase;
@@ -21,13 +20,6 @@
     align-items: $centrado;
 }
 
-.contenedorD{
-    display: $flex-box;
-    justify-content: $centrado;
-    align-items: $centrado;
-    width: $ancho-total;
-    text-align: $centrado;
-}
 .contenedorSJ{
     display: $flex-box;
     justify-content: $centrado;

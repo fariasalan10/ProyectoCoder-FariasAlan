@@ -35,12 +35,10 @@
     font-size: $size-parraf;
 }
 .titulo-mail-formulario{
-    color: $primary-color;
-    font-size: $size-parraf;
+    @extend .titulo-nombre-formulario;
 }
 .titulo-mensaje-formulario{
-    color: $primary-color;
-    font-size: $size-parraf;
+    @extend .titulo-nombre-formulario;
 }
 .boton-contactanos{
     width: $ancho-total;
