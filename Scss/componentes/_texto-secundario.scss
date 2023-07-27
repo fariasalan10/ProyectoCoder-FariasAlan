@@ -1,3 +1,9 @@
+@mixin flex-center-center{    
+    display: $flex-box;
+    justify-content: $centrado;
+    align-items: $centrado;
+}
+
 .contenedor3{
     width: $ancho-total;
     display: $grid-container;
@@ -8,9 +14,7 @@
 .contenedor3__frase{
     color: $secondary-color;
     font-size: $size-frase;
-    display: $flex-box;
-    justify-content: $centrado;
-    align-items: $centrado;
+    @include flex-center-center;
 }
 .contenedor3__parrafo{
     color: $terciary-color;
@@ -21,9 +25,7 @@
 }
 
 .contenedorSJ{
-    display: $flex-box;
-    justify-content: $centrado;
-    align-items: $centrado;
+    @include flex-center-center;
     width: $ancho-total;
     margin-bottom: 2*($margin-texto-principal);
 }

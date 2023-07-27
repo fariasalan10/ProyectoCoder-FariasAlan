@@ -1,9 +1,16 @@
-.degrade{
+@mixin flex-center-center{
     display: $flex-box;
     justify-content: $centrado;
     align-items: $centrado;
+}
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+}
+
+.degrade{
+    @include flex-center-center;
     background: linear-gradient($degrade-angle, $primary-degrade, $secondary-degrade);
     border-radius: $radius-border;
-    width: $box-width;
-    height: $box-height;
+    @include sizes($box-width, $box-height);
 }

@@ -1,3 +1,8 @@
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+}
+
 .titulo-contenedor{
     color: $primary-color;
     text-align: $centrado;
@@ -41,8 +46,7 @@
     @extend .titulo-nombre-formulario;
 }
 .boton-contactanos{
-    width: $ancho-total;
-    height: $height-boton;
+    @include sizes($ancho-total, $height-boton);
     border-radius: $radius-border;
     background-color: $background-color-form;
     color: $secondary-color;

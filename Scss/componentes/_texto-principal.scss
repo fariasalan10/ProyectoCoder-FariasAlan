@@ -1,10 +1,13 @@
+@mixin flex-center-center{
+    display: $flex-box;
+    justify-content: $centrado;
+    align-items: $centrado;
+}
 .upper {
     text-transform: $mayusc;
 }
 .container__frase {
-    display: $flex-box;
-    justify-content: $centrado;
-    align-items: $centrado;
+    @include flex-center-center;
     width: $automatico;
     margin-top: $margin-texto-principal;
     text-align: $centrado;
@@ -14,9 +17,7 @@
     margin: $porcentaje-0;
 }
 .container__parraf {
-    display: $flex-box;
-    justify-content: $centrado;
-    align-items: $centrado;
+    @include flex-center-center;
     width: $ancho-total;
     text-align: $centrado;
 }
