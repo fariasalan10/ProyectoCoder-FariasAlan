@@ -1,6 +1,56 @@
-.wd{
-    width: $cards-width;
+.container1{
+    width: $ancho-total;
+    display: $flex-box;
+    max-width: $ancho-maximo;
 }
-.padding { 
+.card1{
+    width: $ancho-total;
     margin: $cards-margin;
+    border-radius: $size-border;
+    overflow: $sobrante-oculto;
+    background: $secondary-color;
+    box-shadow: $no-pixels $unico-pixel $no-pixels $sombra-color;
+    transition: $todas $timecards $transicionsuave;
+    cursor: $cursor-default;
+}
+.card1:hover {
+    box-shadow: $cards-shadow2 $cards-shadow2 $cards-shadow1 $sombra-color;
+    transform: translateY($translateY);
+}
+.card1 img {
+    width: $ancho-total;
+    height: $altura-max;
+}
+.card1 .contenido {
+    padding: $cards-padding;
+    text-align: $centrado;
+}
+.card1 .contenido p {
+    line-height: $altolineacards;
+    color: $footer-secondary-color;
+}
+.card1 .contenido .h3{
+    font-weight: $fuentealtura;
+    margin-bottom: $cards-padding;
+}
+.card1 .contenido a{
+    text-decoration: $no-decoration;
+    display: $display-combinado;
+    padding: $espacio-col;
+    margin-top: $espacio-col;
+    color: $celeste-botones;
+    border: $unico-pixel $borde-solido $celeste-botones;
+    border-radius: $size-border;
+    transition: $todas $timecards $transicionsuave;
+}
+.card1 .contenido a:hover{
+    background: $celeste-botones;
+    color: $secondary-color;
+}
+.responsive-cards{
+    width: $ancho-total;
+    display: $grid-container;
+    grid-template-columns: repeat($cards-grid4, $fraccion);
+    column-gap: $espacio-col;
+    margin: $cards-margin*5 $no-pixels;
 }

@@ -31,7 +31,7 @@
         font-size: $size-parraf;
         border: $no-decoration;
         height: $altura-min;
-        transition: all 1s;
+        transition: $todas $timeanimation1;
     }
     textarea:focus {
         height: $altura-max;
@@ -50,8 +50,13 @@
 }
 .boton-contactanos{
     @include sizes($ancho-total, $height-boton);
-    border-radius: $radius-border;
-    background-color: $background-color-form;
-    color: $secondary-color;
     text-transform: $mayusc;
+    color: $celeste-botones;
+    border: $unico-pixel $borde-solido $celeste-botones;
+    border-radius: $size-border;
+    transition: $todas $timecards $transicionsuave;
+}
+.boton-contactanos:hover{
+    background: $celeste-botones;
+    color: $secondary-color;
 }

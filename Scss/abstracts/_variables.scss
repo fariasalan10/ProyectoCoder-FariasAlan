@@ -8,6 +8,8 @@ $footer-secondary-color: rgb(87, 83, 83);
 $primary-degrade: rgb(13, 13, 137);
 $secondary-degrade: rgb(195, 36, 110);
 $background-color-form: #31384a;
+$sombra-color: rgba(255, 255, 255, 0.2);
+$celeste-botones: #2fb4cc;
 
 $flex-box: flex;
 $comienzo-flex: flex-start;
@@ -16,15 +18,24 @@ $grid-container: grid;
 
 $sobrante-oculto: hidden;
 
+$display-combinado: inline-block;
 $no-border: border-box;
 $borde-solido: solid;
 $size-border: 5px;
 $radius-border: 15px;
 
+$timecards: 400ms;
+$timeanimation1: 1s;
+$todas: all;
+$transicionsuave: ease;
+
+$fuentealtura: 400;
+$altolineacards: 1.5;
 $no-decoration: none;
 $mayusc: uppercase;
 $centrado: center;
 $automatico: auto;
+$cursor-default: default;
 
 $ancho-total: 100%;
 $porcentaje-0: 0%;
@@ -35,6 +46,14 @@ $cards-margin: 20px;
 $espacio-col: 10px;
 $margin-texto-principal: 50px;
 $no-pixels: 0px;
+
+$cards-shadow1: 20px;
+$cards-shadow2: 5px;
+$translateY: -3%;
+$unico-pixel: 1px;
+$ancho-maximo: 1100px;
+$cards-padding: 15px;
+$cards-grid4: 4;
 
 $cards-width: 18rem;
 $fraccion: 1fr;
@@ -52,3 +71,4 @@ $box-width: 250px;
 
 $margin-query: 30px;
 $media-tablet: 768px;
+$media-celular: 425px;

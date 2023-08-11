@@ -21,3 +21,17 @@
     grid-template-columns: repeat(1, $fraccion);
     padding: ($padding-form)*5;
 }}
+
+@media screen and (max-width: $media-tablet) {
+    .responsive-cards {
+      width: $ancho-total;
+      grid-template-columns: repeat(2, $fraccion);
+    }
+  }
+@media screen and (max-width: $media-celular) {
+    .responsive-cards {
+      width: $ancho-total;
+      grid-template-columns: repeat(1, $fraccion);
+    }
+  }
+

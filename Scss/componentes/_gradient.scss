@@ -13,9 +13,8 @@
     background: linear-gradient($degrade-angle, $primary-degrade, $secondary-degrade);
     border-radius: $radius-border;
     @include sizes($box-width, $box-height);
-    transition: all 3s;
+    transition: $todas 3s;
 }
-
 .degrade:hover {
     @include sizes(300px, 100px);
     background: linear-gradient($degrade-angle, $secondary-degrade, $primary-degrade);
